@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Riya Shah — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav>
+    <a href="#portfolio" class="nav-logo">Riya Shah</a>
+    <ul class="nav-links">
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#" onclick="copyEmail(event)">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="portfolio">
+    <span class="portfolio-tag">Available for opportunities</span>
+    <h1 class="portfolio-name">Riya<br/><em>Shah</em></h1>
+    <p class="portfolio-subtitle">
+        Computer Science student at Georgia Tech specializing in Systems, Architecture, and Cybersecurity.
+        Building secure, high-performance applications at the intersection of AI and Infrastructure.
+    </p>
+    <div class="portfolio-cta">
+        <a href="#experience" class="btn btn-primary">View my work</a>
+        <button onclick="copyEmail(event)" class="btn btn-ghost" id="copyBtn">Contact</button>
+    </div>
+    <div class="portfolio-contact">
+        <span class="contact-item" style="cursor:pointer;" onclick="copyEmail(event)">rshah652@gatech.edu</span>
+        <a href="tel:+14708184496" class="contact-item">(470) 818-4496</a>
+        <a href="https://github.com/RSha70" target="_blank" class="contact-item">github.com/RSha70</a>
+        <a href="https://linkedin.com/in/riya-shah-5569a2244" target="_blank" class="contact-item">linkedin.com/in/riya-shah</a>
+        <span class="contact-item">Atlanta, GA</span>
+    </div>
+    <div class="portfolio-bg-text" aria-hidden="true">RIYA</div>
+</section>
+
+<section id="education">
+    <div class="section-label">01 — Education</div>
+    <h2 class="section-title">Academic<br/><em>Background</em></h2>
+    <div class="edu-grid">
+        <div class="edu-card">
+            <div class="edu-school">Georgia Institute of Technology</div>
+            <div class="edu-degree">B.S. Computer Science</div>
+            <div class="edu-meta">
+                <span>Atlanta, GA</span>
+            </div>
+            <div class="edu-courses">
+                <strong style="color: var(--text); font-size:0.78rem;">Concentrations: Systems & Architecture, Cybersecurity & Privacy</strong><br/>
+                Data Structures & Algorithms · Computer Organization & Programming · Objects & Design · Privacy Technology · Policy & Law · Discrete Math · Combinatorics
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <div class="section-label">02 — Experience</div>
+    <h2 class="section-title">Where I've<br/><em>Worked</em></h2>
+    <div class="exp-list">
+        <div class="exp-item">
+            <div class="exp-meta">
+                <span class="exp-date">Aug. 2024 — May 2025</span>
+                <span class="exp-location">Cumming, GA</span>
+            </div>
+            <div class="exp-body">
+                <div class="exp-role">Information Technology Intern</div>
+                <div class="exp-company">Craig Long LLC</div>
+                <ul class="exp-bullets">
+                    <li>Engineered and optimized the company website's front-end using React, increasing conversion rate by 30% through performance enhancements.</li>
+                    <li>Automated file management workflows using Microsoft 365 APIs and SharePoint, reducing manual processing time by 40% and migrating 3 TB of enterprise data.</li>
+                    <li>Deployed 5+ security sensitivity labels to enforce data protection policies, reducing risk of unauthorized access by 30%.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="exp-item">
+            <div class="exp-meta">
+                <span class="exp-date">Feb. 2024 — May 2025</span>
+                <span class="exp-location">Atlanta, GA</span>
+            </div>
+            <div class="exp-body">
+                <div class="exp-role">Undergraduate Research Assistant</div>
+                <div class="exp-company">Georgia Institute of Technology</div>
+                <ul class="exp-bullets">
+                    <li>Developed 2 interactive physics lectures using AI-driven adaptive learning tools, increasing student engagement by 60%.</li>
+                    <li>Implemented audio and visual adaptive learning technologies, improving learning retention rates by 20%.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="exp-item">
+            <div class="exp-meta">
+                <span class="exp-date">Nov. 2023 — Jul. 2024</span>
+                <span class="exp-location">Cumming, GA</span>
+            </div>
+            <div class="exp-body">
+                <div class="exp-role">Mathematics Tutor</div>
+                <div class="exp-company">Mathnasium of West Forsyth</div>
+                <ul class="exp-bullets">
+                    <li>Tutored 100+ students in mathematics, providing personalized lessons and creating custom problem sets to increase understanding accuracy by 90%.</li>
+                    <li>Managed learning plans and communicated progress updates with parents for dozens of students per shift.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="section-label">03 — Projects</div>
+    <h2 class="section-title">Things I've<br/><em>Built</em></h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <div class="project-header">
+                <div class="project-name">NodeSurfer Web Application</div>
+                <div class="project-links">
+                    <a href="https://github.com/RSha70" class="project-link">GitHub</a>
+                    <a href="https://devpost.com/RSha79" class="project-link">Devpost</a>
+                </div>
+            </div>
+            <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Mastra Framework</span>
+                <span class="tech-tag">LLM</span>
+            </div>
+            <p class="project-desc">
+                Full-stack app converting documents (PDF, DOCX, TXT) into interactive knowledge graphs using LLM concept extraction.
+                Features an AI chatbot for contextual Q&A, reducing lookup time by 40%.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="section-label">04 — Skills</div>
+    <h2 class="section-title">Technical<br/><em>Skills</em></h2>
+    <div class="skills-grid">
+        <div class="skill-category">
+            <h3>Languages</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">HTML/CSS</span>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3>Frameworks & Libraries</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">JUnit</span>
+                <span class="skill-tag">Mastra</span>
+                <span class="skill-tag">Pygame</span>
+                <span class="skill-tag">Matplotlib</span>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3>Tools & Platforms</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Firebase</span>
+                <span class="skill-tag">Figma</span>
+                <span class="skill-tag">VS Code</span>
+                <span class="skill-tag">IntelliJ</span>
+                <span class="skill-tag">Microsoft 365/SharePoint</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-name">Riya Shah</div>
+    <div class="footer-links">
+        <a href="#" onclick="copyEmail(event)">Copy Email</a>
+        <a href="https://github.com/RSha70" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/riya-shah-5569a2244" target="_blank">LinkedIn</a>
+    </div>
+</footer>
+
+<script>
+    // Scroll-triggered entry animation for experience items
+    const items = document.querySelectorAll('.exp-item');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 120);
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    items.forEach(el => io.observe(el));
+
+    // Active nav link highlight
+    const sections = document.querySelectorAll('section[id]');
+    const links = document.querySelectorAll('.nav-links a');
+    const navIO = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          links.forEach(l => l.style.color = '');
+          const active = document.querySelector(`.nav-links a[href="#${e.target.id}"]`);
+          if (active) active.style.color = 'var(--accent)';
+        }
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+    sections.forEach(s => navIO.observe(s));
+
+    function copyEmail(event) {
+    // Prevent default anchor behavior if it's a link
+    event.preventDefault();
+
+    const email = "rshah652@gatech.edu";
+
+    // Use the modern Clipboard API
+    navigator.clipboard.writeText(email).then(() => {
+        // Optional: Provide visual feedback to the user
+        const btn = event.currentTarget;
+        const originalText = btn.innerText;
+
+        btn.innerText = "Email Copied!";
+
+        // Reset the button text after 2 seconds
+        setTimeout(() => {
+            btn.innerText = originalText;
+        }, 2000);
+    }).catch(err => {
+        console.error('Failed to copy: ', err);
+    });
+}
+</script>
+
+</body>
+</html>
